@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#90CAf9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp">
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2"
+            android:layout_width="167dp"
+            android:layout_height="35dp"
+            android:text="BIENVENIDOS"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView2"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USUARIO"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <TextView
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editTextTextPersonName2"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTRASEÑA"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <EditText
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView5"
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="337dp" />
+
+        <EditText
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView4"
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+        <ImageView
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button4"
+            android:id="@+id/imageView"
+            android:layout_width="277dp"
+            android:layout_height="199dp"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTextPassword"
+            android:layout_centerHorizontal="true"
+            android:text="INICIAR SESION"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="406dp" />
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:text="REGISTO"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="468dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

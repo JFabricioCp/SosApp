@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescargaActivity"
+    android:background="#90CAf9">
+
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="427dp"
+        android:layout_height="301dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView4"
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCARGAR"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@drawable/logo"
+        android:id="@+id/imageView4"
+        android:layout_width="162dp"
+        android:layout_height="178dp"
+        app:srcCompat="@drawable/archivo_e1418047657309"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button8"
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="626dp" />
+</RelativeLayout>
