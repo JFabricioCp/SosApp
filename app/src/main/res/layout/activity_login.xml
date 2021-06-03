@@ -40,7 +40,7 @@
         <TextView
             android:layout_marginTop="35dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/editTextTextPersonName2"
+            android:layout_below="@+id/EtLogin_User"
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_marginTop="0dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/textView5"
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/EtLogin_Password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -65,7 +65,7 @@
             android:layout_marginTop="0dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/textView4"
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/EtLogin_User"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -77,7 +77,7 @@
         <ImageView
             android:layout_marginTop="55dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/button4"
+            android:layout_below="@+id/btnLogin_Register"
             android:id="@+id/imageView"
             android:layout_width="277dp"
             android:layout_height="199dp"
@@ -86,22 +86,23 @@
             tools:layout_editor_absoluteY="516dp" />
 
         <Button
-            android:layout_marginTop="30dp"
-            android:id="@+id/button3"
+            android:id="@+id/btnLogin_Login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/editTextTextPassword"
+            android:layout_below="@+id/EtLogin_Password"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="GetTextFromMaterialTextFields"
             android:text="INICIAR SESION"
             tools:layout_editor_absoluteX="161dp"
             tools:layout_editor_absoluteY="406dp" />
 
         <Button
             android:layout_marginTop="15dp"
-            android:id="@+id/button4"
+            android:id="@+id/btnLogin_Register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button3"
+            android:layout_below="@+id/btnLogin_Login"
             android:layout_centerHorizontal="true"
             android:text="REGISTO"
             tools:layout_editor_absoluteX="169dp"

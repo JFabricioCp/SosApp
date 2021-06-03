@@ -76,7 +76,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="153dp" />
+        tools:layout_editor_absoluteY="153dp"
+        android:layout_centerHorizontal="true"/>
 
     <EditText
         android:layout_marginTop="0dp"
@@ -130,7 +131,7 @@
         android:layout_marginTop="0dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button"
-        android:id="@+id/button2"
+        android:id="@+id/btnRegister_Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INICIO"
